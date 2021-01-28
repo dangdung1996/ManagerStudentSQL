@@ -50,38 +50,45 @@ insert into Manager_student.address(id, address) value (3,'Hà Giang');
 insert into Manager_student.address(id, address) value (4, 'Huế');
 insert into Manager_student.address(id, address) value (5, 'Đà Nẵng');
 
-insert into Manager_student.classes(id, name, language, description) value (null, 'Đặng Văn Dũng', 'VNs', 'Đẹp trai, ga lăng, vui tính mỗi tội ít tiền');
-insert into Manager_student.classes(id, name, language, description) value (null, 'Trương Phương Nam', 'VNs', 'no description');
-insert into Manager_student.classes(id, name, language, description) value (null, 'Nguyễn phúc Thanh', 'VNs', 'no description');
-insert into Manager_student.classes(id, name, language, description) value (null, 'Nguyễn Văn Duyệt', 'VNs', 'no description');
-insert into Manager_student.classes(id, name, language, description) value (null, 'Trinh Công Khải', 'VNs', 'no description');
+insert into Manager_student.classes(id, name, language, description) value (1, 'Đặng Văn Dũng', 'VNs', 'Đẹp trai, ga lăng, vui tính mỗi tội ít tiền');
+insert into Manager_student.classes(id, name, language, description) value (2, 'Trương Phương Nam', 'VNs', 'no description');
+insert into Manager_student.classes(id, name, language, description) value (3, 'Nguyễn phúc Thanh', 'VNs', 'no description');
+insert into Manager_student.classes(id, name, language, description) value (4, 'Nguyễn Văn Duyệt', 'VNs', 'no description');
+insert into Manager_student.classes(id, name, language, description) value (5, 'Trinh Công Khải', 'VNs', 'no description');
 
-insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (null, 'Đặng Văn A',1,0987123659,2);
-insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (null, 'Đặng Văn B',2,0982323659,3);
-insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (null, 'Đặng Văn C',3,0985645659,4);
-insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (null, 'Đặng Văn D',3,0985676659,5);
-insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (null, 'Đặng Văn E',3,0984425976,1);
-insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (null, 'Đặng Văn F',4,0982425976,1);
-insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (null, 'Đặng Văn F',4,0989445976,1);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (1, 'Đặng Văn A',1,0987123659,2);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (2, 'Đặng Văn B',2,0982323659,3);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (3, 'Đặng Văn C',3,0985645659,4);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (4, 'Đặng Văn D',3,0985676659,5);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (5, 'Đặng Văn E',3,0984425976,1);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (6, 'Đặng Văn F',4,0982425976,1);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (7, 'Đặng Văn F',4,0989765976,1);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (8, 'Đặng Văn F',4,0989497976,1);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (9, 'Đặng Văn F',4,0989490976,1);
+insert into Manager_student.Students(id, fullname, address_id, phone, class_id) VALUE (10, 'Đặng Văn F',4,0989445306,1);
 
-insert into Manager_student.course(id, name, description) VALUE (null, 'A', 'Xấu trai');
-insert into Manager_student.course(id, name, description) VALUE (null, 'A', 'Xấu trai');
-insert into Manager_student.course(id, name, description) VALUE (null, 'A', 'Xấu trai');
-insert into Manager_student.course(id, name, description) VALUE (null, 'A', 'Xấu trai');
-insert into Manager_student.course(id, name, description) VALUE (null, 'A', 'Xấu trai');
+insert into Manager_student.course(id, name, description) VALUE (1, 'A', 'Xấu trai');
+insert into Manager_student.course(id, name, description) VALUE (2, 'A', 'Xấu trai');
+insert into Manager_student.course(id, name, description) VALUE (3, 'A', 'Xấu trai');
+insert into Manager_student.course(id, name, description) VALUE (4, 'A', 'Xấu trai');
+insert into Manager_student.course(id, name, description) VALUE (5, 'A', 'Xấu trai');
 
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 1,2,8.0);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 4,5,6.7);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 5,6,7.8);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 6,7,8.9);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 7,8,8.7);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 8,9,9.7);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 3,5,8.8);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 2,5,7.8);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 2,5,7.9);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 6,7,8.9);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 5,8,9.9);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 7,8,5.7);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 1,2,8.0);
-insert into Manager_student.point(id, course_id, student_id, point) VALUE (null, 1,2,8.0);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (1, 1,2,8.0);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (2, 4,5,6.7);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (3, 5,6,7.8);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (4, 2,7,8.9);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (5, 4,8,8.7);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (6, 3,9,9.7);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (7, 3,5,8.8);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (8, 2,5,7.8);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (9, 2,5,7.9);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (10, 4,7,8.9);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (11, 5,8,9.9);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (12, 2,8,5.7);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (13, 1,2,8.0);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (14, 1,2,8.0);
+insert into Manager_student.point(id, course_id, student_id, point) VALUE (15, 1,2,8.0);
+
+
+
 
